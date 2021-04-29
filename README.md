@@ -32,4 +32,4 @@ Praticando HTML5 e CSS3
   <li>Pseudo-elementos</li>
 </ul>
 
-<h6>Link do projeto: </h6>
+<h6 >Link do projeto: landingpagemddev.netlify.app </h6>

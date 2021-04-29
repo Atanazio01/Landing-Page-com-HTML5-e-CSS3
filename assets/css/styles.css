@@ -172,13 +172,13 @@
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    background: var(--white-color);
+    background: #333;
     width: 3rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    color: var(--primary-color);
+    color: var(--white-color);
     border-radius: 50%;
     border: 0.1rem solid var(--primary-color);
 }

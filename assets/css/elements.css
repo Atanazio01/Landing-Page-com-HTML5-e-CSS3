@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -20,12 +21,7 @@ body {
     line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -44,12 +40,15 @@ h2 {
 h3 {
     font-size: 5rem;
 }
+
 h4 {
     font-size: 4.5rem;
 }
+
 h5 {
     font-size: 4rem;
 }
+
 h6 {
     font-size: 3.5rem;
 }
@@ -81,15 +80,13 @@ table caption {
     margin-bottom: 1rem;
 }
 
-table td,
-table th {
+table td, table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: left;
     border: 0.1rem solid var(--light-gray-color);
 }
 
-tfoot td,
-tfoot th {
+tfoot td, tfoot th {
     background-color: var(--light-gray-color);
 }

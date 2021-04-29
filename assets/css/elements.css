@@ -21,7 +21,12 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -31,8 +36,8 @@ h1 {
 }
 
 h2 {
-    font-size: 6rem;
-    margin-bottom: 5rem;
+    font-size: 4rem;
+    margin-bottom: 6rem;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -80,13 +85,15 @@ table caption {
     margin-bottom: 1rem;
 }
 
-table td, table th {
+table td,
+table th {
     white-space: nowrap;
     padding: 1rem;
     text-align: left;
     border: 0.1rem solid var(--light-gray-color);
 }
 
-tfoot td, tfoot th {
+tfoot td,
+tfoot th {
     background-color: var(--light-gray-color);
 }

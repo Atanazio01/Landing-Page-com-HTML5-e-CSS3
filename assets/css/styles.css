@@ -7,13 +7,15 @@
     min-height: 100vh;
 }
 
-.intro-text-content, .intro-img {
+.intro-text-content,
+.intro-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
-.intro-img img, .intro-img svg {
+.intro-img img,
+.intro-img svg {
     max-width: 100%;
     height: auto;
 }
@@ -111,7 +113,8 @@
     margin-bottom: 1rem;
 }
 
-.form-group input, .form-group textarea {
+.form-group input,
+.form-group textarea {
     border: none;
     background: var(--white-color);
     padding: 1.5rem 2rem;
@@ -119,7 +122,8 @@
     font-size: 3rem;
 }
 
-.form-group input:focus, .form-group textarea:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     box-shadow: 0 0 15px var(--secondary-color);
 }
 
@@ -166,21 +170,22 @@
 
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    /* background: var(--white-color); //mostra o tamanho do botão */
+    bottom: 1rem;
+    right: 1rem;
+    background: var(--white-color);
     width: 3rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    border-radius: 50%;
     color: var(--primary-color);
-    /* border: 0.1rem solid var(--primary-color); */
+    border-radius: 50%;
+    border: 0.1rem solid var(--primary-color);
 }
 
 @media (max-width: 800px) {
-    .intro-content, .grid {
+    .intro-content,
+    .grid {
         grid-template-columns: 1fr;
     }
     .gallery-img {
@@ -198,9 +203,10 @@
         bottom: 0;
         text-align: center;
     }
-    .menu-content, .menu-content ul {
+    .menu-content,
+    .menu-content ul {
         flex-direction: column;
-        justify-content: center
+        justify-content: center;
     }
     .menu-content {
         height: 100vh;
@@ -209,7 +215,7 @@
         display: none;
     }
     .close-menu-label::after {
-        content: '☰';
+        content: "☰";
         position: fixed;
         z-index: 2;
         top: 2rem;
@@ -224,11 +230,11 @@
         padding: 0.5;
         cursor: pointer;
     }
-    .close-menu:checked~.menu {
+    .close-menu:checked ~ .menu {
         display: block;
     }
-    .close-menu:checked~.close-menu-label::after {
-        content: '×';
+    .close-menu:checked ~ .close-menu-label::after {
+        content: "×";
     }
     .menu-spacing {
         display: none;
